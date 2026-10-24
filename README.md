@@ -49,8 +49,10 @@ assets/img/favicon.svg
 
 ## Публикация
 
-Репозиторий: приватный.
+Сайт: <https://dmcrtr24.github.io> — GitHub Pages, ветка `main`, корень репозитория.
 
-GitHub Pages на Free-плане публикует только **публичные** репозитории.
-Для приватного нужен GitHub Pro/Team: Settings → Pages → Branch: `main` / root.
-Как альтернатива — Cloudflare Pages, Netlify или Vercel умеют деплоить из приватного репозитория.
+```bash
+git push origin main   # Pages пересобирается автоматически
+```
+
+Локально: `python3 -m http.server 8899`.
